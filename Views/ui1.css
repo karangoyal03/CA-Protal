@@ -201,6 +201,135 @@ nav {
   color: #505050;
 
 }
+
+body {
+  font-family: "lato";
+
+  box-sizing: border-box;
+}
+
+ .nav2{
+  background: #ddd;
+  margin: 0;
+ 
+ 
+}
+
+
+.nav2 .container {
+  max-width: 100% ;
+  font-size: 0.34cm;
+  padding-bottom: 2px;
+
+  margin: 0 auto ;
+}
+
+.nav2 .megamenu {
+  background: #fff ;
+ ]
+}
+
+.nav2  .megamenu  ul {
+  margin: 0 ;
+  padding: 0 ;
+  list-style: none ;
+  position: relative ;
+  text-align: left ;
+}
+
+ .megamenu  li {
+  display: inline-block ;
+}
+
+ .megamenu  a {
+  color: #505050 ;
+  text-decoration: none;
+  display: block;
+  padding: .75em 1.75em;
+}
+.menuitem{
+  
+    float: right;
+}
+
+ .menuitem a:hover {
+   
+   color: #212529;
+ text-decoration: none;
+  border-bottom: 3px solid #FF9100;
+}
+
+ .megamenu  li:hover a {
+  color: #444 ;
+}
+
+
+.menu-sub {
+  position: absolute ;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  display: none;
+  color: #444;
+  padding: 2em;
+  box-shadow: 1px 0px 1px 0px #FF9100;
+}
+
+ .megamenu  li:hover .menu-sub {
+  display: block ;
+  height:auto;
+  position: relative; 
+
+}
+
+.menu-sub li {
+  display: block ;
+ float: left;
+ width: 100%;
+
+}
+
+.menu-sub a {
+  padding: 0;
+  margin-bottom: .35em;
+  
+}
+
+.menu-sub a:hover {
+  text-decoration: underline;
+  border-bottom: none;
+}
+
+.menu-category {
+  margin: 2.5em 0 .5em;
+}
+
+.menu-category:first-of-type {
+  margin-top: 0;
+}
+
+.menu-col-1,
+.menu-col-2,
+.menu-col-3,
+.menu-col-4 {
+  float: left;
+}
+
+.menu-col-1 {
+  width: 25%;
+}
+
+
+
+.nav2 .menuitem {
+  float: right;
+}
+
+
+
+.menu-sub h3{
+  border-bottom: 1px solid #444;
+  width: 55%;}
 #nav {
   padding-bottom: 6px;
   border: solid #a8a8a8;
@@ -219,6 +348,9 @@ nav {
 }
 #div1 {
   box-shadow: inset 0 15px 15px -15px rgb(109, 108, 108);
+}
+#hova{
+  
 }
 .switch {
   position: relative;
@@ -291,3 +423,31 @@ input:checked + .slider:before {
 #div1 {
   align-items: center;
 }
+@media screen and (max-width:600px){
+ #div1 {
+   width: 100%;
+ }
+ 
+  .comp{
+    margin-left: 50%;
+  }
+  .btns{
+ margin-left: 40%;
+  }
+}
+
+.alignitem li a{
+  color: #ff9100; margin-left: 40px;}
+  .comp{
+    color: #ff9100; margin-left: 510px;
+  }
+  .btns{
+    color: white;
+    border-color: #ff9100;
+    background-color: #ff9100;
+    outline: none;
+    margin-right: 40px;
+  }
+  #div1{
+    width: 40%;
+  }
