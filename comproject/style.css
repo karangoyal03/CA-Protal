@@ -1,0 +1,201 @@
+body {
+  font-family: "lato";
+}
+ul li a {
+  font-size: 0.34cm;
+  padding-bottom: 2px;
+}
+nav a {
+  font-size: 0.34cm;
+  padding-bottom: 2px;
+}
+
+nav {
+  background-color: white;
+}
+.navba {
+  position: relative;
+
+  display: -ms-flexbox;
+
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+
+  flex-wrap: wrap;
+
+  -ms-flex-align: center;
+
+  align-items: center;
+
+  -ms-flex-pack: justify;
+
+  justify-content: space-between;
+}
+.btns {
+  margin-top: 6px;
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  background-color: linear-gradient(to right, #ff0000, #ff7408);
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  padding-bottom: 2px;
+  font-size: 0.34cm;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 0.25rem;
+
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.nav2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.nav2 li {
+  float: right;
+}
+
+.nav2 li a {
+  display: block;
+  color: #505050;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.image {
+  background-image: url("Path 1.png");
+  background-color: white;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.text {
+  color: white;
+}
+
+img {
+  margin-left: 13%;
+}
+
+#active {
+  background-color: #ff9100;
+  color: #ffffff;
+  box-shadow: 0 0 130px #f3a723;
+}
+
+#btnss:hover,
+#btnssa:hover,
+#btnssb:hover,
+#btnssc:hover,
+#btnssd:hover {
+  background-color: #ff9100;
+  color: #ffffff;
+}
+#btnss {
+  outline: none;
+  color: #ff9100;
+  box-shadow: 0 0 130px #f3a723;
+}
+#btnssa {
+  outline: none;
+  color: #ff9100;
+  box-shadow: 0 0 130px #f3a723;
+}
+#btnssb {
+  outline: none;
+  color: #ff9100;
+  box-shadow: 0 0 130px #f3a723;
+}
+#btnssc {
+  outline: none;
+  color: #ff9100;
+  box-shadow: 0 0 130px #f3a723;
+}
+#btnssd {
+  outline: none;
+  color: #ff9100;
+  box-shadow: 0 0 130px #f3a723;
+}
+#off {
+  margin-left: 4%;
+}
+#ro {
+  margin-top: 20px;
+}
+#bac {
+  background-color: #f3f3f3;
+  padding: 7%;
+}
+#roo {
+  color: #6d6d6d;
+}
+#ell {
+  background-image: url("Captured.PNG");
+  background-color: white;
+
+  background-repeat: no-repeat;
+  background-size: 1cm 1cm;
+  position: relative;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+#elf {
+  background-image: url("Capturem.PNG");
+  background-color: white;
+
+  background-repeat: no-repeat;
+  background-size: 1cm 1cm;
+  position: relative;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+#elg {
+  background-image: url("Capturen.PNG");
+  background-color: white;
+
+  background-repeat: no-repeat;
+  background-size: 1cm 1cm;
+  position: relative;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+#rec {
+  background-image: url("Rectangle 39.png");
+  background-color: white;
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#btns {
+  color: #ff9100;
+}
+
+#shad {
+  box-shadow: 0px 0px 20px #c7c6c6;
+}
+#shadow {
+  box-shadow: 0px 0px 20px #fad3b2;
+}
+#sha {
+  box-shadow: 0px 0px 20px #fad3b2;
+}

@@ -1,0 +1,259 @@
+* {
+  font-family: "Segoe UI";
+}
+
+.container {
+  max-width: unset !important;
+}
+h3 {
+  color: white;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: "Segoe UI";
+}
+
+#div1 {
+  background-image: linear-gradient(#ffbb00, #ff7408);
+  height: 1200px;
+  padding: 0%;
+}
+#hova:hover,
+#hovb:hover,
+#hovc:hover,
+#hovd:hover,
+#hove:hover,
+#hovf:hover {
+  color: #ff9100;
+}
+#div1 {
+  box-shadow: inset 0 15px 15px -15px rgb(109, 108, 108);
+}
+#ul1 {
+  list-style-type: none;
+  padding: 0%;
+  margin-top: 80px;
+}
+#ul1 li button {
+  text-decoration: none;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  color: white;
+  background: none;
+  border: none;
+}
+
+#ul1 li {
+  height: 30px;
+  margin-top: 20px;
+  padding-top: 3px;
+}
+
+#ul1 li:hover,
+#ul1 li button:active {
+  background-color: white;
+
+  box-shadow: 0 0px 28px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+  border-color: white;
+  padding: 0%;
+}
+#btn {
+  background-color: #324370;
+  margin-left: 40px;
+
+  border: solid 2px white;
+}
+#ul2 {
+  list-style-type: none;
+  padding: 0%;
+}
+#ul2 li a {
+  text-decoration: none;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  color: white;
+}
+#ul2 li {
+  height: 30px;
+  margin-top: 20px;
+  padding-top: 3px;
+}
+#btn2 {
+  color: #707070;
+  padding: 10px;
+  width: 150px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#btn3 {
+  background-color: white;
+  padding: 10px;
+  width: 150px;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  h3 {
+    margin-left: 10px;
+  }
+  #ul1 li button {
+    margin-left: 10px;
+  }
+  #btn {
+    margin-left: 10px;
+  }
+  #ul2 li {
+    margin-left: 10px;
+  }
+  #btn2 {
+    margin-left: 10px;
+    width: 140px;
+  }
+  #btn3 {
+    margin-left: 10px;
+    width: 140px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  #btn2 {
+    width: 120px;
+  }
+  #btn3 {
+    width: 120px;
+  }
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: auto;
+}
+.tabcontent:hover {
+  display: block;
+}
+ul li a {
+  font-size: 0.34cm;
+  padding-bottom: 2px;
+}
+nav a {
+  font-size: 0.34cm;
+  padding-bottom: 2px;
+}
+
+nav {
+  background-color: white;
+}
+.navba {
+  position: relative;
+
+  display: -ms-flexbox;
+
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+
+  flex-wrap: wrap;
+
+  -ms-flex-align: center;
+
+  align-items: center;
+
+  -ms-flex-pack: justify;
+
+  justify-content: space-between;
+}
+.btns {
+  margin-top: 6px;
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  background-color: linear-gradient(to right, #ff0000, #ff7408);
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  padding-bottom: 2px;
+  font-size: 0.34cm;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 0.25rem;
+
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.nav2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.nav2 li {
+  float: right;
+}
+
+.nav2 li a {
+  display: block;
+  color: #505050;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#nav {
+  padding-bottom: 6px;
+  border: solid #a8a8a8;
+  border-width: thin;
+}
+#bo {
+  box-shadow: 0 1px 15px -1px rgb(109, 108, 108);
+}
+.hov:hover {
+  color: #ff9100;
+}
+div#container {
+  display: table;
+}
+div#container div.cell {
+  display: table-cell;
+}
+
+input[type="search"],
+div.button {
+  width: 100%;
+  height: 35px;
+
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input[type="search"] {
+  margin: 0;
+  padding: 0 10px;
+
+  background-color: #f8f8f8;
+
+  border: 0;
+  border-radius: 5px;
+}
+th,
+td {
+  width: 20%;
+}
