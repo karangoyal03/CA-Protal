@@ -431,8 +431,8 @@ input:checked + .slider:before {
   .btns{
  margin-left: 40%;
   }
-  #div1 {
-    width: 500px;
+  .container .row #div1{
+    width: 50%;
   }
   
 }
