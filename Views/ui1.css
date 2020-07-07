@@ -424,9 +424,6 @@ input:checked + .slider:before {
   align-items: center;
 }
 @media screen and (max-width:600px){
- #div1 {
-   width: 100%;
- }
  
   .comp{
     margin-left: 50%;
@@ -434,6 +431,10 @@ input:checked + .slider:before {
   .btns{
  margin-left: 40%;
   }
+  #div1 {
+    width: 500px;
+  }
+  
 }
 
 .alignitem li a{
@@ -449,5 +450,6 @@ input:checked + .slider:before {
     margin-right: 40px;
   }
   #div1{
-    width: 40%;
+    width: 16%;
   }
+  
