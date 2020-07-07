@@ -190,20 +190,16 @@ nav {
   padding: 0;
   overflow: hidden;
   background-color: white;
+  position: absolute;
 }
 
-.nav2 li {
-  float: right;
-}
+
 
 .nav2 li a {
   display: block;
   color: #505050;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-#nav {
+
+}#nav {
   padding-bottom: 6px;
   border: solid #a8a8a8;
   border-width: thin;

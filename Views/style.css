@@ -92,18 +92,15 @@ nav {
   padding: 0;
   overflow: hidden;
   background-color: white;
+  position: absolute;
 }
 
-.nav2 li {
-  float: right;
-}
+
 
 .nav2 li a {
   display: block;
   color: #505050;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+
 }
 .image {
   background-image: url("Path 1.png");
@@ -232,3 +229,131 @@ img {
 #sha {
   box-shadow: 0px 0px 20px #fad3b2;
 }
+body {
+  font-family: "lato";
+
+  box-sizing: border-box;
+}
+
+ .nav2{
+  background: #ddd;
+  margin: 0;
+ 
+ 
+}
+
+
+.nav2 .container {
+  max-width: 100% ;
+  font-size: 0.34cm;
+  padding-bottom: 2px;
+
+  margin: 0 auto ;
+}
+
+.nav2 .megamenu {
+  background: #fff ;
+ ]
+}
+
+.nav2  .megamenu  ul {
+  margin: 0 ;
+  padding: 0 ;
+  list-style: none ;
+  position: relative ;
+  text-align: left ;
+}
+
+ .megamenu  li {
+  display: inline-block ;
+}
+
+ .megamenu  a {
+  color: #505050 ;
+  text-decoration: none;
+  display: block;
+  padding: .75em 1.75em;
+}
+.menuitem{
+  
+    float: right;
+}
+
+ .menuitem a:hover {
+   
+   color: #212529;
+ text-decoration: none;
+  border-bottom: 3px solid #FF9100;
+}
+
+ .megamenu  li:hover a {
+  color: #444 ;
+}
+
+
+.menu-sub {
+  position: absolute ;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  display: none;
+  color: #444;
+  padding: 2em;
+  box-shadow: 1px 0px 1px 0px #FF9100;
+}
+
+ .megamenu  li:hover .menu-sub {
+  display: block ;
+  height:auto;
+  position: relative; 
+
+}
+
+.menu-sub li {
+  display: block ;
+ float: left;
+ width: 100%;
+
+}
+
+.menu-sub a {
+  padding: 0;
+  margin-bottom: .35em;
+  
+}
+
+.menu-sub a:hover {
+  text-decoration: underline;
+  border-bottom: none;
+}
+
+.menu-category {
+  margin: 2.5em 0 .5em;
+}
+
+.menu-category:first-of-type {
+  margin-top: 0;
+}
+
+.menu-col-1,
+.menu-col-2,
+.menu-col-3,
+.menu-col-4 {
+  float: left;
+}
+
+.menu-col-1 {
+  width: 25%;
+}
+
+
+
+.nav2 .menuitem {
+  float: right;
+}
+
+
+
+.menu-sub h3{
+  border-bottom: 1px solid #444;
+  width: 55%;}
