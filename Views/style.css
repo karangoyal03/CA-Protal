@@ -9,6 +9,138 @@ nav a {
   font-size: 0.34cm;
   padding-bottom: 2px;
 }
+.align li{
+ 
+  color: #ff7408;
+  padding-left: 15px;
+}
+.align{
+  margin-left: 60%;
+}
+@media screen and (max-width:600px){
+  .align li{
+ 
+    color: #ff7408;
+    padding-left: 1%;
+  }
+  h6{
+    padding-top: 25px;
+  }
+  .image .text .head{
+    font-size: 60px;
+   position: relative;
+   top: 25px;
+   left: 20px;
+  }
+  .imgg{
+   
+  }
+  .align{
+   margin-left:4%;
+  }
+  .btns1{
+    margin-left: 40%;
+    margin-bottom: 2%;
+  }
+  
+  .image .text .head{
+    font-size: 30px;
+    margin-top: 0px;
+
+ 
+  }
+  .text1 {
+    font-size: 20px;
+    position: relative;
+    left: 5%;
+    
+  }
+  
+  .imgg{
+   margin-left: -100px;
+  }
+  .btns {
+    margin-top: 6px;
+  margin-left: -3%;
+    display: block;
+    font-weight: 400;
+    color: #212529;
+    background-color: linear-gradient(to right, #ff0000, #ff7408);
+   
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding-bottom: 2px;
+    font-size: 0.34cm;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0.25rem;
+  
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .btns1{
+    margin-top: 6px;
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    background-color: linear-gradient(to right, #ff0000, #ff7408);
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding-bottom: 2px;
+    font-size: 0.34cm;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0.25rem;
+  
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  
+}
+#contact h3{
+  padding: 1px;
+              padding-left: 25px;
+              padding-right: 25px;
+                text-align: center;
+                
+                color:#6d6d6d;
+                font-weight: 400;
+                
+}
+.text2{
+  color: #212529;
+  position: relative; display: inline-block; margin-top: 32%; margin-left: 60px;
+}
+.head{
+  font-size: 60px;
+ position: relative;
+ top: 100px;
+ left: 80px;
+}
+.text1{
+  display: inline-block; color: white; margin-left: -1.4%; position: absolute;
+  margin-top: 5%; 
+ 
+}
 
 nav {
   background-color: white;
@@ -86,6 +218,7 @@ nav {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
 .nav2 ul {
   list-style-type: none;
   margin: 0;
@@ -210,11 +343,13 @@ img {
 #rec {
   background-image: url("Rectangle 39.png");
   background-color: white;
-  height: 650px;
+  height: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 #btns {
   color: #ff9100;
