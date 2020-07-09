@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname,'/views')))
 
 app.use('/api',apiroute)
 
-app.listen(5555,()=>{
+app.listen(5666,()=>{
 
     console.log('server has started')
 })

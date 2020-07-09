@@ -253,7 +253,6 @@ body {
 
 .nav2 .megamenu {
   background: #fff ;
- ]
 }
 
 .nav2  .megamenu  ul {
@@ -284,6 +283,7 @@ body {
    color: #212529;
  text-decoration: none;
   border-bottom: 3px solid #FF9100;
+  position: absolute;
 }
 
  .megamenu  li:hover a {
